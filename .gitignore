@@ -19,3 +19,12 @@ dist/
 # 系统
 .DS_Store
 Thumbs.db
+
+# 截图和临时文件
+*.jpg
+*.png
+*.pdf
+!backend/data/*.pdf
+
+# 临时脚本
+convert_to_pdf.py
