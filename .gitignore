@@ -23,8 +23,7 @@ Thumbs.db
 # 截图和临时文件
 *.jpg
 *.png
-*.pdf
-!backend/data/*.pdf
-
-# 临时脚本
 convert_to_pdf.py
+
+# 课程PDF（不上传但本地保留）
+*.pdf
